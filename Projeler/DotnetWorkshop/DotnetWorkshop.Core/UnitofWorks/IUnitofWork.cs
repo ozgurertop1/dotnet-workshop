@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DotnetWorkshop.Core.UnitofWorks
 {
-    public interface IUnitofWork
+    public interface IUnitOfWork
     {
-
+        Task CommitAsync(); //SaveChangesAsync temsil etsin.
+        void Commit(); //SaveChanges() temsil etsin.
     }
 }
