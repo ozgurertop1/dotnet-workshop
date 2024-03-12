@@ -1,0 +1,12 @@
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\bin\Debug\net6.0\DotnetWorkshop.Core.deps.json
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\bin\Debug\net6.0\DotnetWorkshop.Core.dll
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\bin\Debug\net6.0\DotnetWorkshop.Core.pdb
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.AssemblyInfoInputs.cache
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.AssemblyInfo.cs
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.csproj.CoreCompileInputs.cache
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.sourcelink.json
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.dll
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\refint\DotnetWorkshop.Core.dll
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\DotnetWorkshop.Core.pdb
+C:\Users\ozgur\OneDrive\Masaüstü\dotnet-workshop\Projeler\DotnetWorkshop\DotnetWorkshop.Core\obj\Debug\net6.0\ref\DotnetWorkshop.Core.dll

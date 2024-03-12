@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "98MBxwmxMDhkJbXUeuBCfB8EthaDoaCN6cplTV0i2g4Nb73fEgiR4n129pknGGzDw5IdsGFeSrZKIhDL3ANG1w==",
+  "dgSpecHash": "tIqOjiWS33VzPWps3exJiJgz3RsUd/7CUMtxB1aihuMYhZ9dKuLTwxJGTBwIps36nKZaz9+JQhliqIStRq+eWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\dotnet-workshop\\Projeler\\DotnetWorkshop\\DotnetWorkshop.API\\DotnetWorkshop.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ozgur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0\\microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.0\\microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
+    "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.0\\microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.0\\microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.0\\microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
