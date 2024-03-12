@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetWorkshop.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+831792ef23bfbc5d921d359433fc334e449317ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89bd79e6c4b26bddc4bcd73919f1624170ee2738")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetWorkshop.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetWorkshop.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

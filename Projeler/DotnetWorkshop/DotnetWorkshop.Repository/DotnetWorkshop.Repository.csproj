@@ -25,7 +25,6 @@
 
   <ItemGroup>
     <Folder Include="UnitOfWorks\" />
-    <Folder Include="Repositories\" />
   </ItemGroup>
 
 </Project>
