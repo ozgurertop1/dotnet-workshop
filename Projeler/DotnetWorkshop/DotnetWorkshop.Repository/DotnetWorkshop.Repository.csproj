@@ -23,4 +23,9 @@
     <ProjectReference Include="..\DotnetWorkshop.Core\DotnetWorkshop.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UnitOfWorks\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
