@@ -10,6 +10,5 @@ namespace DotnetWorkshop.Core.Services
 {
     public interface ITeamService:IService<Team>
     {
-        
     }
 }
