@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetWorkshop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5bd588540fbbe7289ac3d9f199f2ede4ab6e985")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2dab8006b762caa157ba77ecb4ad8b57d855fbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetWorkshop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetWorkshop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
