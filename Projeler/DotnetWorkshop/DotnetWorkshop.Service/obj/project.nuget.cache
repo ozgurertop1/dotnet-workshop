@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "ssOVX3LS6Ud1YIDt0yXojwz5nB8XUvGLbNYGxx+CIBiAWJNcitk75hI02wDk7PojW5uiCtekRp6p9tn4wWARFw==",
+  "dgSpecHash": "Ed5b3HIWl25GwIJHhyamfcWUwgpLQncwkif+7DGcy+BEay3YbMBMmvSuMD7GNoHYKSY2lmF83htDnwwBJR6AVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\dotnet-workshop\\Projeler\\DotnetWorkshop\\DotnetWorkshop.Service\\DotnetWorkshop.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ozgur\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\ozgur\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\ozgur\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\ozgur\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\ozgur\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

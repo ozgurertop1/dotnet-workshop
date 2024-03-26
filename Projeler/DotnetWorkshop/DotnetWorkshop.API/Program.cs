@@ -6,6 +6,8 @@ using DotnetWorkshop.Repository.Repositories;
 using DotnetWorkshop.Repository.UnitOfWorks;
 using DotnetWorkshop.Service.Mapping;
 using DotnetWorkshop.Service.Services;
+using DotnetWorkshop.Service.Validations;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
@@ -23,6 +25,22 @@ builder.Services.AddAutoMapper(typeof(MapProfile));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
+
+//FluentValidation tanımalamsı gerçekleştirilmesi
+//1.Yöntem
+//builder.Services.AddControllers()
+//    .AddFluentValidation(x =>
+//    {
+//        x.RegisterValidatorsFromAssemblyContaining<TeamDtoValidator>();
+//        x.RegisterValidatorsFromAssemblyContaining<UserDtoValidator>();
+//        x.RegisterValidatorsFromAssemblyContaining<UserProfileDtoValidator>();
+//    });
+
+//2.Yöntem
+builder.Services.AddControllers().AddFluentValidation(x =>
+{
+    x.RegisterValidatorsFromAssemblyContaining<TeamDtoValidator>();
+});
 
 
 //AppDbContext işlemler
