@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotnetWorkshop.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5088c94980b91ecc70d9b47609843a9afd14833e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d83198ac5c187351176a6a50b312c5f18bb3dad")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotnetWorkshop.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotnetWorkshop.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
