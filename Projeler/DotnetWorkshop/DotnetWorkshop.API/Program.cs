@@ -1,4 +1,5 @@
-﻿using DotnetWorkshop.Core.Repositories;
+﻿using Autofac.Extensions.DependencyInjection;
+using DotnetWorkshop.Core.Repositories;
 using DotnetWorkshop.Core.Services;
 using DotnetWorkshop.Core.UnitofWorks;
 using DotnetWorkshop.Repository;
@@ -9,6 +10,7 @@ using DotnetWorkshop.Service.Services;
 using DotnetWorkshop.Service.Validations;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using System.Reflection;
 
 
@@ -21,7 +23,39 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+#region Swagger İşlemleri
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Name = "Authorization",
+        Description = "Bearer Authentication with JWT Token",
+        Type = SecuritySchemeType.Http
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Id = "Bearer",
+                    Type = ReferenceType.SecurityScheme
+                }
+            },
+            new List<string>()
+        }
+    });
+});
+
+#endregion
+
+//automapper kütüphanesi tanımlanması
 builder.Services.AddAutoMapper(typeof(MapProfile));
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
@@ -51,6 +85,11 @@ builder.Services.AddDbContext<AppDbContext>(x =>
         option.MigrationsAssembly(Assembly.GetAssembly(typeof(AppDbContext)).GetName().Name);
     });
 });
+
+//Autofac kütüphanesini ekledik. Bu kütüphane amacıyla (generic repository vb) işlemler
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
+
+//Buranın devamı Apı katmanında
 
 var app = builder.Build();
 
