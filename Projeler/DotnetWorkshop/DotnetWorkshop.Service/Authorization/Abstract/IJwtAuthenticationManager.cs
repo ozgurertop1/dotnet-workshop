@@ -10,6 +10,6 @@ namespace DotnetWorkshop.Service.Authorization.Abstract
     internal interface IJwtAuthenticationManager
     {
         AuthResponseDto Authentication(string username, string password);
-        int? ValidateJwtToken(string jwtToken);
+        string ValidateJwtToken(string jwtToken);
     }
 }

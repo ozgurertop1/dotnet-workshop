@@ -52,9 +52,34 @@ namespace DotnetWorkshop.Service.Authorization.Concrete
             }
         }
 
-        public int? ValidateJwtToken(string jwtToken)
+        public string ValidateJwtToken(string token)
         {
-            throw new NotImplementedException();
+            if(token == null)
+                return null;
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(_appSettings.Secret);
+
+            try
+            {
+                tokenHandler.ValidateToken(token, new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(key),
+                    ValidateIssuer = false,
+                    ValidateAudience = false,
+                    ClockSkew = TimeSpan.Zero
+                 }, out SecurityToken validatedToken);
+
+                var jwtToken = (JwtSecurityToken)validatedToken;
+                var username = jwtToken.Claims.First(x => x.Type == "username").Value;
+                return username;
+            }
+            catch (Exception)
+            {
+
+                return "";
+            }
         }
     }
 }
