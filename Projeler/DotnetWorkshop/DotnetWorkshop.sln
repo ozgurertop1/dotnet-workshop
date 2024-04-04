@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetWorkshop.Repository",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetWorkshop.Service", "DotnetWorkshop.Service\DotnetWorkshop.Service.csproj", "{80863F41-981F-4840-88B0-86271EE473F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetWorkshop.API", "DotnetWorkshop.API\DotnetWorkshop.API.csproj", "{52BE0D06-0776-4658-A31F-8FD5C573797E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotnetWorkshop.API", "DotnetWorkshop.API\DotnetWorkshop.API.csproj", "{52BE0D06-0776-4658-A31F-8FD5C573797E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

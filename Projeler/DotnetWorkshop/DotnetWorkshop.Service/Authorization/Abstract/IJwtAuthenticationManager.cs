@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace DotnetWorkshop.Service.Authorization.Abstract
 {
-    internal interface IJwtAuthenticationManager
+    public interface IJwtAuthenticationManager
     {
-        AuthResponseDto Authentication(string username, string password);
+        AuthResponseDto Authenticate(string username, string password);
         string ValidateJwtToken(string jwtToken);
     }
 }

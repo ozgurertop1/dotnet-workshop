@@ -5,6 +5,8 @@ using DotnetWorkshop.Core.UnitofWorks;
 using DotnetWorkshop.Repository;
 using DotnetWorkshop.Repository.Repositories;
 using DotnetWorkshop.Repository.UnitOfWorks;
+using DotnetWorkshop.Service.Authorization.Abstract;
+using DotnetWorkshop.Service.Authorization.Concrete;
 using DotnetWorkshop.Service.Mapping;
 using DotnetWorkshop.Service.Services;
 using DotnetWorkshop.Service.Validations;
@@ -56,6 +58,9 @@ builder.Services.AddSwaggerGen(options =>
 //automapper kütüphanesi tanımlanması
 builder.Services.AddAutoMapper(typeof(MapProfile));
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IJwtAuthenticationManager, JwtAuthenticationManager>();
+
+
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped(typeof(IService<>), typeof(Service<>));
